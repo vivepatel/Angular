@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   message: string = "Hello from BridgeLabz";  
-  logoUrl: string = "assets\BL_logo_square_png.png"; // Path to the local image
+  logoUrl: string = "hello-world-angular\src\assets\BL_logo_square_png.png"; // Local image path
+
+  // Method to launch BridgeLabz site in a new tab
+  openBridgeLabzSite() {
+    window.open("https://www.bridgelabz.com", "_blank");
+  }
 }
