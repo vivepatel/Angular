@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  message: string = "Hello from BridgeLabz"; // Using One-Way Data Binding (Interpolation)
+  message: string = "Hello from BridgeLabz";  
+  logoUrl: string = "assets\BL_logo_square_png.png"; // Path to the local image
 }
